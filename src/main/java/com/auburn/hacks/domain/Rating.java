@@ -1,4 +1,4 @@
-package com.auburn.hacks;
+package com.auburn.hacks.domain;
 
 public class Rating {
 
