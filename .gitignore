@@ -1,0 +1,14 @@
+*.sw?
+.#*
+*#
+*~
+.settings
+bin
+build
+target
+dependency-reduced-pom.xml
+*.sublime-*
+/scratch
+README.html
+*.iml
+.idea
