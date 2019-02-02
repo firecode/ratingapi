@@ -1,6 +1,5 @@
 package com.auburn.hacks;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -38,7 +37,7 @@ public class RatingService {
 	public void init() throws IOException {
 
 		PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-		Resource resource = resolver.getResource("classpath*:ratingapi.json");
+		Resource resource = resolver.getResource("classpath:ratingapi.json");
 
 		InputStream serviceAccount = resource.getInputStream();
 
